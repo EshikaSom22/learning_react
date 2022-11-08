@@ -1,10 +1,11 @@
 import React from 'react'
-const name="eshika som";
+const fname="eshika";
+const lname="som"
 const App = () => {
   return (
     <>
       <h1>my name is {name}</h1>
-      <p></p>
+      <p>my lucky number is {Math.random()}</p>
       </>
   )
 }
