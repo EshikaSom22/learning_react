@@ -1,14 +1,18 @@
 import React from 'react'
-const fname="Eshika";
-const lname="Som";
-const currentDate= new Date().toLocaleDateString();
-const currentTime=new Date().toLocaleTimeString();
+const name="eshika";
+// const fname="Eshika";
+// const lname="Som";
+// const currentDate= new Date().toLocaleDateString();
+// const currentTime=new Date().toLocaleTimeString();
 const App = () => {
   return (
     <>
-      <h1>{`My name is ${fname} ${lname}.`}</h1>
+      {/* <h1>{`My name is ${fname} ${lname}.`}</h1>
       <p>Current date: {currentDate}</p>
-      <p>Current time: {currentTime} </p>
+      <p>Current time: {currentTime} </p> */}
+
+      <h1>my name is {name}</h1>
+      
       </>
   )
 }
