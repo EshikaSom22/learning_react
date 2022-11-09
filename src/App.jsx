@@ -1,11 +1,14 @@
 import React from 'react'
-const fname="eshika";
-const lname="som";
+const fname="Eshika";
+const lname="Som";
+const currentDate= new Date().toLocaleDateString();
+const currentTime=new Date().toLocaleTimeString();
 const App = () => {
   return (
     <>
-      <h1>my name is {fname} {lname}</h1>
-      <p>my lucky number is {Math.random()}</p>
+      <h1>{`My name is ${fname} ${lname}.`}</h1>
+      <p>Current date: {currentDate}</p>
+      <p>Current time: {currentTime} </p>
       </>
   )
 }
