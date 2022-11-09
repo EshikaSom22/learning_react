@@ -1,5 +1,9 @@
 import React from 'react'
 const name="eshika";
+const img1= "https://picsum.photos/id/1/200/300";
+const img2= "https://picsum.photos/id/1/250/300";
+const img3= "https://picsum.photos/id/1/300/300";
+const link="https://www.thapatechnical.com/";
 // const fname="Eshika";
 // const lname="Som";
 // const currentDate= new Date().toLocaleDateString();
@@ -12,7 +16,11 @@ const App = () => {
       <p>Current time: {currentTime} </p> */}
 
       <h1 contentEditable="true">my name is {name}</h1>
-      <img src='https://picsum.photos/id/1/200/300' alt='random image' />
+      <img src={img1} alt='random image' />
+      <img src={img2} alt='random image'/>
+      <a href={link} target="thapa">
+      <img src={img3} alt='random image' />
+</a>
       </>
   )
 }
