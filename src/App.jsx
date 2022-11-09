@@ -11,8 +11,8 @@ const App = () => {
       <p>Current date: {currentDate}</p>
       <p>Current time: {currentTime} </p> */}
 
-      <h1>my name is {name}</h1>
-      
+      <h1 contentEditable="true">my name is {name}</h1>
+      <img src='https://picsum.photos/id/1/200/300' alt='random image' />
       </>
   )
 }
