@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css'
 const name="eshika";
 const img1= "https://picsum.photos/id/1/200/300";
 const img2= "https://picsum.photos/id/1/250/300";
@@ -15,12 +16,13 @@ const App = () => {
       <p>Current date: {currentDate}</p>
       <p>Current time: {currentTime} </p> */}
 
-      <h1 contentEditable="true">my name is {name}</h1>
+      <h1 className='heading'>my name is {name}</h1>
+      <div className='img_div'>
       <img src={img1} alt='random image' />
       <img src={img2} alt='random image'/>
       <a href={link} target="thapa">
       <img src={img3} alt='random image' />
-</a>
+</a></div>
       </>
   )
 }
